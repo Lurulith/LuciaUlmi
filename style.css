@@ -79,12 +79,12 @@ li#index1_contact{
 
 li#index2_academic_works{
 margin-top: 35px;
-    margin-left: -50px;
+    margin-left: -30px;
 }
 
 li#index2_own_creations{
   margin-top: 120px;
-  margin-left: -55px;
+  margin-left: -27px;
 }
 
 
@@ -216,7 +216,7 @@ ul.slider li:target {
      font-size: 30px;
     color: white;
    position:relative;
-   top: -220px;
+   top: -200px;
    left:600PX;
    width:  800px;
    height: 600px;
@@ -233,7 +233,7 @@ ul.slider3{
   width: 800px;
   height: 600px;
 }
-
+/**/
 ul.slider3 li {
     position:absolute;
     left: 0px;
@@ -267,7 +267,7 @@ ul.slider3 li:target {
      font-size: 30px;
     color: white;
    position:relative;
-   top: 23px;
+   top: 100px;
    left:600PX;
    width:  800px;
    height: 600px;
@@ -323,7 +323,7 @@ ul.slider4 li:target {
      font-size: 30px;
     color: white;
    position:relative;
-   top: 300px;
+   top: 400px;
    left:600PX;
    width:  800px;
    height: 600px;
@@ -367,7 +367,7 @@ ul.slider5 li:target {
 }
 
 
-/*habitación*/
+/*La vida de Elssie*/
 .container6{
      background-color: black;
     font-family: Amatic SC;
@@ -418,6 +418,56 @@ ul.slider6 li:target {
 }
 
 
+/*planetas*/
+.container21{
+   background-color: black;
+    font-family: Amatic SC;
+     font-size: 22px;
+    color: white;
+   position:relative;
+   top: 700px;
+   left:600PX;
+   width:  800px;
+   height: 600px;
+  }
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider21{
+  position: relative;
+  width: 800px;
+  height: 600px;
+}
+
+ul.slider21 li {
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:black;
+}
+
+ul.slider21 li img{
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+}
+
+ul.slider21 li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider21 li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
 
 
 .container7{
@@ -437,19 +487,19 @@ ul.slider6 li:target {
 
 
 
-.menu_slide{
+.menu{
 position:absolute;
   text-align: center;
   top: 575px;
-  left:0PX;	
+  left:270PX;	
 }
 
-.menu_slide li{
+.menu li{
   display: inline-block;
   text-align: center;
 }
 
-.menu_slide li a{
+.menu li a{
   display: inline-block;
   color: black;
   text-decoration: none;
@@ -526,7 +576,7 @@ ul.slider8 li:target {
   }
 
 
-  /*stopmotion*/
+ /*pisa*/
 .container10{
    background-color: black;
     font-family: Amatic SC;
@@ -540,7 +590,7 @@ ul.slider8 li:target {
   }
 
 
-    /*Rotoscopia*/
+   /*stopmotion*/  
 .container11{
    background-color: black;
     font-family: Amatic SC;
@@ -554,8 +604,7 @@ ul.slider8 li:target {
   }
 
 
-
-      /*Fall in love*/
+/*Rotoscopia*/
 .container12{
    background-color: black;
     font-family: Amatic SC;
@@ -569,7 +618,7 @@ ul.slider8 li:target {
   }
 
 
-        /*ENjoy music*/
+      /*Fall in love*/ 
 .container13{
    background-color: black;
     font-family: Amatic SC;
@@ -577,7 +626,7 @@ ul.slider8 li:target {
     color: white;
    position:relative;
    top: -150px;
-   left:200PX;
+   left:195PX;
    width:  800px;
    height: 600px;
   }
@@ -603,15 +652,88 @@ ul.slider8 li:target {
     color: white;
    position:relative;
    top: -350px;
-   left:700PX;
+   left:600PX;
    width:  800px;
    height: 600px;
   }
 
-h1{
-margin-top: 20px;
-margin-bottom: 0px;
-}
-p{
-margin-top: 5px;
-}
+/*animations
+.container15{
+   background-color: black;
+    font-family: Amatic SC;
+     font-size: 30px;
+    color: white;
+   position:relative;
+   top: -350px;
+   left:200PX;
+   width:  800px;
+   height: 600px;
+  }*/
+
+
+  /*Enjoy music*/
+.container16{
+   background-color: black;
+    font-family: Amatic SC;
+     font-size: 30px;
+    color: white;
+   position:relative;
+   top: 100px;
+   left:195PX;
+   width:  800px;
+   height: 600px;
+  }
+
+
+ /*Firma*/
+.container17{
+   background-color: black;
+    font-family: Amatic SC;
+     font-size: 30px;
+    color: white;
+   position:relative;
+   top: 350px;
+   left:195PX;
+   width:  800px;
+   height: 600px;
+  } 
+
+  /*esp: fall in love*/
+  .container18{
+   background-color: black;
+    font-family: Amatic SC;
+     font-size: 20px;
+    color: white;
+   position:relative;
+   top: 100px;
+   left:0PX;
+   width:  800px;
+   height: 600px;
+  }
+
+  /*enjoy music*/
+    .container19{
+   background-color: black;
+    font-family: Amatic SC;
+     font-size: 20px;
+    color: white;
+   position:relative;
+   top: 350px;
+   left:0PX;
+   width:  800px;
+   height: 600px;
+  }
+
+
+    /*logo*/
+    .container20{
+   background-color: black;
+    font-family: Amatic SC;
+     font-size: 20px;
+    color: white;
+   position:relative;
+   top: 610px;
+   left:0PX;
+   width:  800px;
+   height: 600px;
+  } 
